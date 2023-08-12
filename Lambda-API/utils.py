@@ -1,6 +1,13 @@
+from datetime import datetime
 # transform json to model's input
 import json
 import torch
+
+def get_dt():
+    now = datetime.now()
+    dt = datetime(now.year, now.month, now.day, now.hour, now.minute//20*20, 00)
+    dt = dt.strftime('%Y-%m-%d %H:%M:%S')
+    return dt
 
 def json_to_tensor(json_data):
     X = []

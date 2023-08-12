@@ -19,6 +19,7 @@ Clone git repo on EC2:
 
 Run shell script files to build docker image:
 
+    cd model-api/Lambda-API
     sh install_docker.sh
     sh build_image.sh
 
