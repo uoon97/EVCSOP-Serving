@@ -1,8 +1,10 @@
 # Serving for EV Charger Station Occupancy Prediction Model
 
-Repo for serving EV charger station occupancy prediction models using aws EC2 and Lambda Respectively.
+Repo for serving EV charger station occupancy prediction models using aws EC2 and Lambda Respectively. <br>
+
 Original Repo: https://github.com/easttuna/ev-charger-occupancy-prediction
 
+<br>
 
 The required input features are as follows.
 
@@ -22,12 +24,8 @@ Sequence
 Time
 - (Time Index, day of week, weekday) : dims = (3,)
 
-<br>
-
 Outputs are as follows.
 
 - Occupancy_20, 40, 60, 120 / continuous : dims = (4, 1)
-
-<br>
 
 
