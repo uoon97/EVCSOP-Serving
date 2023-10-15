@@ -1,13 +1,4 @@
-# EV Charger Station Occupancy Prediction Model API
-The required input features are as follows.
-- number of chargers(slow/fast) : 2 dims
-- supply capacity : 1 dim
-- location of station(lat/lon) : 2 dims
-- average of taxi trip of road link within 500m radius : 1 dim
-- proportion of road type within 500m radius(4 road type) : 4 dims
-- proportion of district type within 500m radius(5 district type) : 5 dims
-
-Original Repo: https://github.com/easttuna/ev-charger-occupancy-prediction
+# Serving for EV Charger Station Occupancy Prediction Model
 
 ## How to
 
