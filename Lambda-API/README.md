@@ -6,7 +6,7 @@ Clone git repo on EC2:
 
     sudo yum update -y
     sudo yum install git -y
-    git clone https://github.com/hwangpeng-sam/model-serving.git
+    git clone https://github.com/hwangpeng-sam/EVCSOP-serving.git
 
 Run shell script files to build docker image:
 
