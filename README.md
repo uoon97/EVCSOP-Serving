@@ -1,8 +1,11 @@
 # Serving for EV Charger Station Occupancy Prediction Model
 
 Repo for serving EV charger station occupancy prediction models using aws EC2 and Lambda Respectively. <br>
-
-Original Repo: https://github.com/easttuna/ev-charger-occupancy-prediction
+Original Repo: https://github.com/easttuna/ev-charger-occupancy-prediction <br>
+<br>
+<p align="center">
+  <img src="https://github.com/uoon97/EVCSOP-Serving/assets/64677725/5c160138-bbce-4e78-b461-9f402d0dbae1">
+</p>
 
 <br>
 
